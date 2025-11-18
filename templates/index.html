@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Featured Items</h2>
+<div class="grid">
+  {% for p in featured %}
+  <div class="card">
+    <a href="{{ url_for('product_detail', product_id=p.id) }}">
+      <img src="{{ url_for('static', filename='images/' + p.image) }}" alt="{{ p.title }}">
+      <h3>{{ p.title }}</h3>
+    </a>
+    <p class="excerpt">{{ p.excerpt }}</p>
+    <p class="price">${{ p.price }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

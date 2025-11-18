@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>About & Contact</h2>
+<p><strong>Business:</strong> {{ business.name }}</p>
+<p><strong>Hours / Lead time:</strong> {{ business.hours }}</p>
+
+<h3 id="contact">Contact</h3>
+<ul>
+  <li>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+  <li>Phone: {{ contact.phone }}</li>
+  <li>Location: {{ contact.location }}</li>
+</ul>
+
+<p>We accept local pickup and e-transfer. Shipping is available for small items — message for a quote.</p>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="product-detail">
+  <img class="product-image" src="{{ url_for('static', filename='images/' + product.image) }}" alt="{{ product.title }}">
+  <div class="product-info">
+    <h2>{{ product.title }}</h2>
+    <p class="price">${{ product.price }}</p>
+    <p>{{ product.description }}</p>
+    <p><strong>Payment:</strong> Local pickup / e-transfer / PayPal invoice</p>
+    <p><strong>Lead time:</strong> 1-2 weeks (for custom work)</p>
+    <a class="contact-btn" href="{{ url_for('about') }}#contact">Contact to order</a>
+  </div>
+</div>
+{% endblock %}
