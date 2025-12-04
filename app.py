@@ -10,7 +10,7 @@ PRODUCTS = [
         "price": 450,
         "excerpt": "Hand-built sauna bench shelf — cedar, stainless hardware.",
         "description": "Full description: handcrafted cedar sauna shelf, sealed for heat and moisture. Dimensions: 24 x 10 x 6 in. Custom sizes available.",
-        "image": "sauna.jpg"
+        "image": "sauna.JPG"
     },
     {
         "id": "adirondack-patch",
@@ -18,7 +18,7 @@ PRODUCTS = [
         "price": 65,
         "excerpt": "Rustic patch-holder for jackets/keys — flat mount.",
         "description": "Holds jackets, keys, and small items. Built from reclaimed pine, hand-sanded, finished with tung oil.",
-        "image": "adirondack_holder.jpg"
+        "image": "adirondack_holder.JPG"
     },
     {
         "id": "shotglass-rack",
@@ -26,7 +26,7 @@ PRODUCTS = [
         "price": 48,
         "excerpt": "Holds 6 shot glasses — perfect for bars and man caves.",
         "description": "Fits standard shot glasses; easy wall-mount with 2 screws. Stained to your preference (light/medium/dark).",
-        "image": "shotglass_holder.jpg"
+        "image": "shotglass_holder.JPG"
     }
 ]
 
