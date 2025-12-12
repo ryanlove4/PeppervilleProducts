@@ -5,28 +5,28 @@ app = Flask(__name__)
 # Simple in-memory product catalog (replace with DB or JSON file later)
 PRODUCTS = [
     {
-        "id": "sauna-custom",
-        "title": "Custom Sauna",
-        "price": 3990,
-        "excerpt": "Description: Cedar interior, 5' wide x 4' wide x __' high",
-        "description": "Features: Sealed for heat and moisture, ability to dissassemble and transport, customization available",
-        "image": "sauna.JPG"
-    },
-    {
-        "id": "adirondack-patch",
-        "title": "Adirondack Patch Wall Mount Holder",
+        "id": "adirondack-patch-display",
+        "title": "Adirondack Patch Display - Wall Mount",
         "price": 96,
-        "excerpt": "Rustic patch-holder for jackets/keys — flat mount.",
-        "description": "Holds jackets, keys, and small items. Built from reclaimed pine, hand-sanded, finished with tung oil.",
+        "excerpt": "Description: __in wide x __in high, holds all 46 Adirondack high peak patches",
+        "description": "Features: Wall mount kit included, patch mount velcro kit included, customization available for stain and center image",
         "image": "adirondack_holder.JPG"
     },
     {
-        "id": "shotglass-rack",
-        "title": "Shot Glass Wall Mount Holder (6)",
+        "id": "shot-glass-display",
+        "title": "Shot Glass Display - Wall Mount",
         "price": 174,
-        "excerpt": "Holds 6 shot glasses — perfect for bars and man caves.",
-        "description": "Fits standard shot glasses; easy wall-mount with 2 screws. Stained to your preference (light/medium/dark).",
+        "excerpt": "Description: __in wide x __in high, __ shotglass slots",
+        "description": "Features: Slots for standard and double shot glasses, wall mount kit included, customization available for stain and center image",
         "image": "shotglass_holder.JPG"
+    },
+    {
+        "id": "shed-sauna",
+        "title": "Shed Sauna",
+        "price": 3990,
+        "excerpt": "Description: Cedar interior, 5' wide x 4' deep x __' high",
+        "description": "Features: Sealed for heat and moisture, ability to dissassemble and transport, customization available",
+        "image": "sauna.JPG"
     }
 ]
 
