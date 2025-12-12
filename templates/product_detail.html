@@ -4,11 +4,11 @@
   <img class="product-image" src="{{ url_for('static', filename='images/' + product.image) }}" alt="{{ product.title }}">
   <div class="product-info">
     <h2>{{ product.title }}</h2>
-    <p class="price">${{ product.price }}</p>
+    <p class="price">${{ product.price }} CAD</p>
     <p>{{ product.description }}</p>
-    <p><strong>Payment:</strong> Local pickup / e-transfer / PayPal invoice</p>
-    <p><strong>Lead time:</strong> 1-2 weeks (for custom work)</p>
-    <a class="contact-btn" href="{{ url_for('about') }}#contact">Contact to order</a>
+    <p><strong>Payment:</strong> E-transfer (love.hartzke@gmail.com) or cash accepted</p>
+    <p><strong>Lead time:</strong> {{ product.leadtime }}</p>
+    <a class="contact-btn" href="{{ url_for('about') }}#contact">Contact to order and for customization options</a>
   </div>
 </div>
 {% endblock %}

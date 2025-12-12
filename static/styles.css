@@ -7,7 +7,7 @@ body{margin:0;color:#222;line-height:1.4}
 nav a{color:#fff;margin-left:16px;text-decoration:none}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--gap);margin-top:18px}
 .card{border:1px solid #eee;padding:12px;border-radius:8px;background:#fff}
-.card img{width:100%;aspect-ratio: 1/1;height:160px;object-fit:cover;border-radius:6px}
+.card img{width:100%;aspect-ratio: 1/1;object-fit:cover;border-radius:6px}
 .product-detail{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
 .product-image{width:100%;aspect-ratio: 1/1;border-radius:8px;object-fit:cover}
 .product-info .price{font-weight:700;margin:10px 0}
