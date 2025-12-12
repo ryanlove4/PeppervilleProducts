@@ -7,27 +7,27 @@ PRODUCTS = [
     {
         "id": "adirondack-patch-display",
         "title": "Adirondack Patch Display - Wall Mount",
-        "price": 96,
+        "price": 90,
         "excerpt": "Description: __in wide x __in high, holds all 46 Adirondack high peak patches",
-        "description": "Features: Wall mount kit included, patch mount velcro kit included, customization available for stain and center image, patches NOT included",
+        "description": "Wall mount kit included, patch mount velcro kit included, customization available for stain and center image, patches NOT included",
         "leadtime": "2-3 weeks from time of purchase",
         "image": "adirondack_holder.JPG"
     },
     {
         "id": "shot-glass-display",
         "title": "Shot Glass Display - Wall Mount",
-        "price": 174,
+        "price": 170,
         "excerpt": "Description: __in wide x __in high, __ shotglass slots",
-        "description": "Features: Slots for standard and double shot glasses, wall mount kit included, customization available for stain and center image",
+        "description": "Slots for standard and double shot glasses, wall mount kit included, customization available for stain and center image",
         "leadtime": "2-4 weeks from time of purchase",
         "image": "shotglass_holder.JPG"
     },
     {
         "id": "shed-sauna",
-        "title": "Shed Sauna",
-        "price": 3990,
+        "title": "Shed Sauna (CURRENTLY NOT AVAILABLE)",
+        "price": 3950,
         "excerpt": "Description: Cedar interior, 5' wide x 4' deep x __' high",
-        "description": "Features: Sealed for heat and moisture, ability to dissassemble and transport, customization available",
+        "description": "Sealed for heat and moisture, ability to dissassemble and transport, customization available",
         "leadtime": "4-6 weeks from time of purchase",
         "image": "sauna.JPG"
     }

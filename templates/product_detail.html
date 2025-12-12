@@ -5,7 +5,7 @@
   <div class="product-info">
     <h2>{{ product.title }}</h2>
     <p class="price">${{ product.price }} CAD</p>
-    <p>{{ product.description }}</p>
+    <p><strong>Features:</strong> {{ product.description }}</p>
     <p><strong>Payment:</strong> E-transfer (love.hartzke@gmail.com) or cash accepted</p>
     <p><strong>Lead time:</strong> {{ product.leadtime }}</p>
     <a class="contact-btn" href="{{ url_for('about') }}#contact">Contact to order and for customization options</a>
