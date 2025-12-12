@@ -6,16 +6,16 @@ app = Flask(__name__)
 PRODUCTS = [
     {
         "id": "sauna-custom",
-        "title": "Custom Mini Sauna Shelf",
-        "price": 450,
-        "excerpt": "Hand-built sauna bench shelf — cedar, stainless hardware.",
-        "description": "Full description: handcrafted cedar sauna shelf, sealed for heat and moisture. Dimensions: 24 x 10 x 6 in. Custom sizes available.",
+        "title": "Custom Sauna",
+        "price": 3990,
+        "excerpt": "Description: Cedar interior, 5' wide x 4' wide x __' high",
+        "description": "Features: Sealed for heat and moisture, ability to dissassemble and transport, customization available",
         "image": "sauna.JPG"
     },
     {
         "id": "adirondack-patch",
         "title": "Adirondack Patch Wall Mount Holder",
-        "price": 65,
+        "price": 96,
         "excerpt": "Rustic patch-holder for jackets/keys — flat mount.",
         "description": "Holds jackets, keys, and small items. Built from reclaimed pine, hand-sanded, finished with tung oil.",
         "image": "adirondack_holder.JPG"
@@ -23,7 +23,7 @@ PRODUCTS = [
     {
         "id": "shotglass-rack",
         "title": "Shot Glass Wall Mount Holder (6)",
-        "price": 48,
+        "price": 174,
         "excerpt": "Holds 6 shot glasses — perfect for bars and man caves.",
         "description": "Fits standard shot glasses; easy wall-mount with 2 screws. Stained to your preference (light/medium/dark).",
         "image": "shotglass_holder.JPG"
@@ -56,13 +56,12 @@ def product_detail(product_id):
 @app.route("/about")
 def about():
     contact = {
-        "email": "youremail@example.com",
-        "phone": "(555) 555-5555",
-        "location": "Your City, Province/State"
+        "email": "love.hartzke@gmail.com",
+        "phone": "(613) 407-6995",
+        "location": "Kanata, Ontario"
     }
     business_info = {
-        "name": "Your Business Name",
-        "hours": "By appointment / custom order"
+        "name": "Pepperville Products",
     }
     return render_template("about.html", contact=contact, business=business_info)
 
