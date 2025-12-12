@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="brand"><a href="{{ url_for('index') }}">My Handcrafted Shop</a></h1>
+      <h1 class="brand"><a href="{{ url_for('index') }}">Pepperville Products</a></h1>
       <nav>
         <a href="{{ url_for('products') }}">Products</a>
         <a href="{{ url_for('about') }}">About</a>
@@ -23,7 +23,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <small>&copy; {{ (config.get('YEAR') if config.get('YEAR') else '') }} My Handcrafted Shop</small>
+      <small>&copy; {{ (config.get('YEAR') if config.get('YEAR') else '') }} Pepperville Products</small>
     </div>
   </footer>
 </body>
